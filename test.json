@@ -1,0 +1,106 @@
+{
+    "sequence0": [
+        {
+            "dependencies_anti": [],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "SUB",
+            "weight": 3
+        },
+        {
+            "dependencies_anti": [],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "ADD",
+            "weight": 1
+        },
+        {
+            "dependencies_anti": [],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "XOR",
+            "weight": 5
+        },
+        {
+            "dependencies_anti": [2],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "DIV",
+            "weight": 6
+        },
+        {
+            "dependencies_anti": [2],
+            "dependencies_output": [1],
+            "dependencies_true": [],
+            "instruction": "OR",
+            "weight": 8
+        }
+    ],
+    "sequence1": [
+        {
+            "dependencies_anti": [],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "ADD",
+            "weight": 3
+        },
+        {
+            "dependencies_anti": [],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "XOR",
+            "weight": 2
+        },
+        {
+            "dependencies_anti": [],
+            "dependencies_output": [],
+            "dependencies_true": [2],
+            "instruction": "XOR",
+            "weight": 1
+        },
+        {
+            "dependencies_anti": [],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "DIV",
+            "weight": 1
+        },
+        {
+            "dependencies_anti": [],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "SUB",
+            "weight": 1
+        },
+        {
+            "dependencies_anti": [2],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "DIV",
+            "weight": 3
+        }
+    ],
+    "sequence2": [
+        {
+            "dependencies_anti": [],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "OR",
+            "weight": 3
+        },
+        {
+            "dependencies_anti": [],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "SUB",
+            "weight": 1
+        },
+        {
+            "dependencies_anti": [],
+            "dependencies_output": [],
+            "dependencies_true": [],
+            "instruction": "SUB",
+            "weight": 1
+        }
+    ]
+}
