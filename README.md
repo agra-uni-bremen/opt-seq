@@ -1,5 +1,7 @@
 # opt-seq
 
+`brew install nlohmann-json # or similar`
+
 ## Debug
 
 `g++ -std=c++2a -Wall -Wextra -pedantic -g -o optseq optseq.cpp`
