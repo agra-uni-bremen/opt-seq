@@ -46,7 +46,7 @@ Again, sequences can be generated with Opt-VP by activating a respective mode. W
 
 In the following, three sequences (`SUB`, `ADD`, `XOR`, `DIV`, `OR`), (`ADD`, `XOR`, `XOR`, `DIV`, `SUB`, `DIV`), and (`OR`, `SUB`, `SUB`) are optimized into one sequence by mapping instructions if possible. The sequences to be merged are encoded in the test application called [test.json](test.json).
 
-Assuming that these sequences were generated using the default mode, the **merged sequence** is created by the following commands:
+Assuming that these sequences were generated using the default mode, the **merged sequence** is created by the following command:
 
 ```console
 $ ./optseq test.json 0
