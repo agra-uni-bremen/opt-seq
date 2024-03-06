@@ -64,3 +64,7 @@ optseq> SUB->ADD->XOR/NOP->DIV/NOP->XOR->SUB/NOP->DIV->OR
 ```
 
 Depending on how Opt-Seq was compiled, the overall output may differ.
+
+## :warning: License
+
+Opt-Seq is licensed under the terms of the [MIT license](LICENSE.txt).
