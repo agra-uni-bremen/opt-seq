@@ -51,7 +51,7 @@ Again, sequences can be generated with Opt-VP by activating a respective mode. W
 
 ## :white_check_mark: Tests
 
-In the following, three sequences (`SUB`, `ADD`, `XOR`, `DIV`, `OR`), (`ADD`, `XOR`, `XOR`, `DIV`, `SUB`, `DIV`), and
+Now, the sequences (`SUB`, `ADD`, `XOR`, `DIV`, `OR`), (`ADD`, `XOR`, `XOR`, `DIV`, `SUB`, `DIV`), and
 (`OR`, `SUB`, `SUB`) are optimized into one sequence by mapping instructions if possible. The sequences to be merged are
 encoded in the test application called [test.json](test.json).
 
